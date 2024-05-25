@@ -65,6 +65,7 @@ function validateForm() {
     // Validate email
     if (!emailPattern.test(userEmail)) {
         alert("Please enter a correct email.");
+        window.location.href = "index.html";
        return false;
     }
     
