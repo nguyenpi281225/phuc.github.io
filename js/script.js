@@ -59,23 +59,23 @@ function validateForm() {
     // Validate name (ensure it's not empty)
     if (userName.trim() === "") {
         alert("Please enter your name.");
-        return false
+        return false;
     }
     
     // Validate email
     if (!emailPattern.test(userEmail)) {
         alert("Please enter a correct email.");
-       return false
+       return false;
     }
     
     // Validate phone (simple validation assuming only digits are entered)
     if (!phonePattern.test(userPhone)) {
         alert("Please enter a 10-digit phone number.");
-        return false
+        return false;
         
     }
     
     alert("Successfully sent!");
-    return false
+    return true;
     
 }
