@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangeviewmc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images\favicon.ico">
+          
+</head>
+<body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <!--Logo is turned white in the css with a filter on dark mode-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src=images\images-removebg-preview.png alt="logo" width="500" height="29" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                About Us
+                            </a>
+                        </li>
+                        <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                        <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                Our Services
+                                <img class="cs-drop-icon" src="images\icons8-dropdown-48.png" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            </span>
+                            <ul class="cs-drop-ul">
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Allergies</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Asthma</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Diabetic Care</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Immunisations</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Iron Infusion</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Medical Acupuncture</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Men's Health</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Women's Health</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                Our teams
+                                <img class="cs-drop-icon" src="images\icons8-dropdown-48.png" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            </span>
+                            <ul class="cs-drop-ul">
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Dr Maggie Cai</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Dr Fujun Liu</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Dr Frank Tan</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Dr Ka Sing Chua</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                FAq
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Privacy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="cs-contact-group">
+                <a href="tel:+84 1985 33 999" class="cs-phone">
+                    <img class="cs-phone-icon" src="images\icons8-phone-100 (1).png" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                    +03 9123 4464
+                </a>
+                <div class="cs-social">
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="images\icons8-facebook-48.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="images\icons8-twitter-100.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="images\icons8-instagram-100.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="images\icons8-youtube-100.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-856">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Modern and Professional</span>
+                <h1 class="cs-title">A Medical Care That Cares Your Health</h1>
+                <p class="cs-text">
+                    We are a Bulk Billing Family Medical Center located at 487 Mitcham Rd in Mitcham. Open Every day except Sundays of the year, our Medical Centre is here for you and your loved ones.
+                </p>
+                <a href="" class="cs-button-solid">Schedule An Appointment</a>
+            </div>
+            <!--Hero Image-->
+            <picture class="cs-picture">
+                <!--Mobile-->
+                <source media="(max-width: 600px)" src="images\doctor-650534_1280 (1).jpg">
+                <!--Tablet-->
+                <source media="(min-width: 601px)" src="images\doctor-650534_1280 (1).jpg">
+                <!--Desktop-->
+                <source media="(min-width: 1024px)" src="images\doctor-650534_1280 (1).jpg">
+                <img aria-hidden="true" decoding="async" src="images\doctor-650534_1280 (1).jpg" alt="Medical Center" width="570" height="701">
+            </picture>
+            
+        </div>
+    
+        
+    </section>
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-296">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">We Are Committed To Delivering Top Quality Legal Services</h2>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <a class="cs-link" href="">
+                        <img class="cs-icon" src="images\icons8-medicine-100.png" alt="icon" width="" height="" loading="lazy" decoding="async" aria-hidden="true">
+                        <h3 class="cs-h3">General Medicine</h3>
+                    </a>
+                    <picture class="cs-image"  aria-hidden="true">
+                        <source media="(max-width: 600px)" src="images\dna-8346570_1280.png">
+                        <source media="(min-width: 601px)" src="images\dna-8346570_1280.png">
+                        <img loading="lazy" decoding="async" src="images\dna-8346570_1280.png" alt="library" width="413" height="266">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="" class="cs-link">
+                        <img class="cs-icon" src="images\icons8-telehealth-100.png" alt="icon" width="" height="" loading="lazy" decoding="async" aria-hidden="true">
+                        <h3 class="cs-h3">Telehealth</h3>
+                        
+                    </a>
+                    <picture class="cs-image"  aria-hidden="true">
+                        <source media="(max-width: 600px)" src="images\telemedicine-6166814_1280.jpg">
+                        <source media="(min-width: 601px)" src="images\telemedicine-6166814_1280.jpg">
+                        <img loading="lazy" decoding="async" src="images\telemedicine-6166814_1280.jpg" alt="library" width="413" height="266">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="" class="cs-link">
+                        <img class="cs-icon" src="images\icons8-pathology-or-hospital-isolated-on-a-white-background-48.png" alt="icon" width="" height="" loading="lazy" decoding="async" aria-hidden="true">
+                        <h3 class="cs-h3">Pathology</h3>
+                        
+                    </a>
+                    <picture class="cs-image"  aria-hidden="true">
+                        <source media="(max-width: 600px)" src="images\ai-generated-8233654_1280.jpg">
+                        <source media="(min-width: 601px)" src="images\ai-generated-8233654_1280.jpg">
+                        <img loading="lazy" decoding="async" src="images\ai-generated-8233654_1280.jpg" alt="library" width="413" height="266">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a class="cs-link" href="">
+                        <img class="cs-icon" src="images\icons8-mental-health-48.png" alt="icon" width="" height="" loading="lazy" decoding="async" aria-hidden="true">
+                        <h3 class="cs-h3">Mental Health</h3>
+                        
+                    </a>
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" src="images\mental-health-7323725_1280.png">
+                        <source media="(min-width: 601px)" src="images\mental-health-7323725_1280.png">
+                        <img loading="lazy" decoding="async" src="images\mental-health-7323725_1280.png" alt="library" width="413" height="266" aria-hidden="true">
+                    </picture>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ============================================ -->
+    <!--             Side By Side Reverse             -->
+    <!-- ============================================ -->
+
+    <section id="sbsr-1007">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <!--Desktop-->
+                    <source media="(min-width: 1024px)" src="images\map.png">
+                    <!--Tablet-->
+                    <source media="(min-width: 601px)" src="images\map.png">
+                    <!--Mobile-->
+                    <source media="(max-width: 600px)" src="images\map.png">
+                    <img loading="lazy" decoding="async" src="images\map.png" alt="beef" width="522" height="461" aria-hidden="true">
+                </picture>
+                <img class="cs-seal" loading="lazy" decoding="async" src="images\label-2160913_1280.png" alt="seal" width="190" height="182">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Our Schedule</span>
+                <div class='box'>
+                    <p class='cs-text'>
+                        <h3>Weekdays&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30AM-6PM</h3>
+                        <hr>
+                        <h3>Saturday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30AM-12PM</h3>
+                        <hr>
+                        <h3>Sunday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</h3>
+                        
+                        <a href="" class="cs-button-solid">Book An Appointment</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+                                
+    
+                                
+    <!-- ============================================ -->
+    <!--                Meet The Team                 -->
+    <!-- ============================================ -->
+
+    <section id="meet-team-977">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Team</span>
+                <h2 class="cs-title">Our Expert Team Members</h2>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" src="images\images (1).jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" src="images\images (1).jpg">
+                        <img loading="lazy" decoding="async" src="images\images (1).jpg" alt="stylist" width="320" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-name"><a href="">DR Maggie Cai</a></span>
+                        <span class="cs-job">Women's Health Expert</span>
+                        <div class="cs-social-group">
+                            <a href="" class="cs-link" aria-label="visit linkedin">
+                                <img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-linkedin-circled-48.png" alt="linkedin" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit twitter">
+                                <img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-twitter-100.png" alt="twitter" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit instragram">
+                                <img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-instagram-100.png" alt="instragram" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit youtube">
+                                <img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-youtube-100.png" alt="youtube" width="12" height="12">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" src="images\doctor_fujun.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" src="images\doctor_fujun.jpg">
+                        <img loading="lazy" decoding="async" src="images\doctor_fujun.jpg" alt="stylist" width="320" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-name"><a href="">DR Fujun Liu</a></span>
+                        <span class="cs-job">Men's Health Expert</span>
+                        <div class="cs-social-group">
+                            <a href="" class="cs-link" aria-label="visit linkedin">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-linkedin-circled-48.png" alt="linkedin" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit twitter">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-twitter-100.png" alt="twitter" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit instragram">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-instagram-100.png" alt="instragram" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit youtube">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-youtube-100.png" alt="youtube" width="12" height="12">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcs="images\images.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" src="images\images.jpg">
+                        <img loading="lazy" decoding="async" src="images\images.jpg" alt="stylist" width="320" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-name"><a href="">DR Frank Tan</a></span>
+                        <span class="cs-job">Childrens' Health Expert</span>
+                        <div class="cs-social-group">
+                            <a href="" class="cs-link" aria-label="visit linkedin">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-linkedin-circled-48.png" alt="linkedin" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit twitter">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-twitter-100.png" alt="twitter" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit instragram">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-instagram-100.png" alt="instragram" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit youtube">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-youtube-100.png" alt="youtube" width="12" height="12">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" src="images\placeholder_man.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" src="images\placeholder_man.jpg">
+                        <img loading="lazy" decoding="async" src="images\placeholder_man.jpg" alt="stylist" width="320" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-name"><a href="">DR Ka Sing Chua</a></span>
+                        <span class="cs-job">Acupuncture Expert</span>
+                        <div class="cs-social-group">
+                            <a href="" class="cs-link" aria-label="visit linkedin">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-linkedin-circled-48.png" alt="linkedin" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit twitter">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-twitter-100.png" alt="twitter" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit instragram">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-instagram-100.png" alt="instragram" width="12" height="12">
+                            </a>
+                            <a href="" class="cs-link" aria-label="visit youtube">
+                                <img img class="cs-icon" loading="lazy" decoding="async" src="images\icons8-youtube-100.png" alt="youtube" width="12" height="12">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+                                
+    <!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!-- ============================================ -->
+
+    <section id="contact-1388">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">For more information</h2>
+                <p class="cs-text">
+                    Please drop your contacts and messages for us here
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="images\icons8-phone-100 (1).png" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Phone</span>
+                            <a href=""
+                             class="cs-link">+03 9123 4464
+                            </a>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="images\icons8-mail-account-48.png" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Email</span>
+                            <a href="" class="cs-link">reception@rangeviewmc.com.au</a>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="images\icons8-visit-100.png" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Address</span>
+                            <a href="" class="cs-link">487 Mitcham Rd, Mitcham VIC 3132</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-1388" name="Contact Form" method="post">
+                
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-1388" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label cs-email">
+                    Email
+                    <input class="cs-input" required type="email" id="email-1388" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label cs-phone">
+                    Phone
+                    <input class="cs-input" required type="number" id="phone-1388" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1388" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit"onclick="validateForm()">Send Message</button>
+            </form>
+        </div>
+    </section>
+                                
+     <!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+
+    <section id="reviews-354">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our reviews</span>
+                <h2 class="cs-title">What our clients say about us</h2>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-quote" aria-hidden="true" src="images\icons8-get-quote-48.png" decoding="async" alt="quote icon" width="40" height="33">
+                    <p class="cs-review">
+                        Dr. Tan is recommended! He is experienced and caring. Also the the backyard parking area is big and good
+                    </p>
+                    <span class="cs-name">Wancy Zhang</span>
+                    <span class="cs-job">Local guide</span>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-quote" aria-hidden="true" src="images\icons8-get-quote-48.png" decoding="async" alt="quote icon" width="40" height="33">
+                    <p class="cs-review">
+                        My friend's mum had a stroke which paralysed her right side and speech. After 3 weeks of acupuncture treatment at this clinic, she started to say 1-2 words. A day after she started to speak, she started to walk with assistance. It brought tears to my eyes. We are very thankful to the clinic which gave us hope! Love your work! 👍
+                    </p>
+                    <span class="cs-name">Young A</span>
+                    <span class="cs-job">Local Guide</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-274">
+        <div class="cs-container">
+            <!-- Logo Group -->
+            <div class="cs-logo-group">
+                <a aria-label="go back to home" class="cs-logo" href="">
+                    <!-- Remove the light class if you don't need the dark logo -->
+                    <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images\images-removebg-preview.png" alt="logo" width="240" height="32">
+                </a>
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="visit google profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="images\icons8-google-100.png" alt="google" width="11" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="images\icons8-facebook-48.png" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="images\icons8-instagram-100.png" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <!-- Links -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Contact</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">+03 9123 4464</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">reception@rangeviewmc.com.au</a>
+                </li>
+            </ul>
+            
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Address</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">487 Mitcham Rd<br>  Mitcham VIC 3132</a>
+                </li>
+            </ul>
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Services</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Men's Health</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Women's Health</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Asthma</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Allergies</a>
+                </li>
+            </ul>
+            <!-- Contact Info -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Proudly Certificated</span>
+                </li>
+                <li class="cs-nav-li">
+                    <img  aria-hidden="true" loading="lazy" decoding="async" src="images\agpal.png" alt="logo" width="240" height="100">
+                </li>
+            </ul>
+        </div>
+    </footer>
+                                
+    
+              
+    
+                                
+                                
+                                
+    
+    
+
+                                
+                                 
+                                
+
+                                
+ 
+
+ 
+    <script src="js/script.js"></script>
+</body>
+</html>
